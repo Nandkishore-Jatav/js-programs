@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Types of Events</title>
+</head>
+<body>
+	<!-- Basic events
+	*Mouse
+
+	1) Click (onclick)
+	2) Double Click (ondblclick)
+	3) Right Click (oncontextmenu)
+	4) Mouse Hover (onmouseenter)
+	5) Mouse Out (onmouseout)
+	6) Mouse Down (onmousedown)
+	7) Mouse Up (onmouseup)
+
+	*Kay
+	8) Kay Press (onkeypress)
+	9) Key Up (onkeyup)
+
+	*Window
+	10) Load (onload)
+	11) Unload (onunload)
+	12) Resize (onresize)
+	13) Scroll (onscroll) -->
+
+	<script type="text/javascript">
+		//function one
+		function nayan(){
+			document.write("Hellow nayan.");
+		}
+		//function two
+		function doubleclick(){
+			document.write("please double click me.");
+		}
+		//fountion three
+		function rightclick(){
+			document.write("please enter your light click.");
+		}
+		//function four
+		function mousehover(){
+			document.write("please enter your house hover");
+		}
+		//function five
+		function mouseout(){
+			document.write("please out mouse");
+		}
+		//functoin six
+		function mousedown(){
+			alert("please down your mouse");
+		}
+		//function seven
+		function mouseup(){ 
+			alert("please uo your mouse");
+		}
+	</script>
+
+	<button onclick="nayan()">Click me</button>
+	<button ondblclick="doubleclick()">Double click</button>
+	<button oncontextmenu="rightclick()">Right click</button>
+	<button onmouseenter="mousehover()">Mouse hover</button>
+	<button onmouseout="mouseout()">Mouse out</button>
+	<button onmouseout="mousedown()">mouse down</button>
+	<button onmouseup="mouseup()">Mouse up</button>
+	<p onmousedown="mousedown()">mouse down</p>
+	<h1 onmouseup="mouseup()">Mouse up</h1>
+</body>
+</html>

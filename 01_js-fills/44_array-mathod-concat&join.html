@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>concat & join array methods</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a = ["nayan", "Jatav", "nandkishore", "Suraj", 789, "aakash"];
+
+		document.write(a + "<br><br><br>");
+
+		var b = a.concat("nandkkkldjflkdjf", 65765);
+		var d = ["Nayan", 54, 654, 545];
+		document.write(b + "<br><br><br>");
+
+		var c = a.concat(b, d);
+
+		document.write(c + "<br><br><br>");
+
+		//*********************
+
+		document.write(a + "<br><br><br>");
+		
+		var b = a.join(" / ");
+		document.write(b + "<br><br><br>");
+		
+		var b = a.join(" * ");
+		document.write(b + "<br><br><br>");
+		
+		var b = a.join(" % ");
+		document.write(b + "<br><br><br>");
+		
+		var b = a.join(" - ");
+		document.write(b + "<br><br><br>");
+	</script>
+</body>
+</html>

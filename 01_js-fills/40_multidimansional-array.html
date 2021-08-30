@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multidimensional array</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var ary = [
+			["Nand", 89, "male", "B.com"],
+			["harry", 34, "male", "Mca"],
+			["Sunny", 43, "male", "B.forma"],
+			["Mones", 76, "other", "B.tech"],
+			["Fanny", 89, "female", "Bca"]
+
+		];
+		document.write(ary.length);
+		document.write("<table border = '1px' cellspacing='0'>");
+		for(var a = 0; a < ary.length; a++){
+			document.write("<tr>");
+
+			for(var b = 0; b <= 3; b++){
+			
+				document.write("<td>" + ary[a][b] + "</td>");
+
+			}
+			document.write("</tr>");
+		}
+		document.write("</table>");
+		document.write("<br><br>")
+
+		//second function
+		document.write(ary[0][2]);
+		document.write("<br>");
+
+		document.write(ary[3][3]);
+		document.write("<br>");
+
+		document.write(ary[4][2]);
+		document.write("<br>");
+		
+		document.write(ary[1][3]);
+		document.write("<br>");
+
+
+	</script>
+</body>
+</html>
